@@ -2,7 +2,7 @@ from hello_world.formater import plain_text_upper_case
 import unittest
 
 
-class TestFormater(unittest.TestCase):
+class TestFormater(unittest.asTestCased):
     def test_plain_lowercase(self):
         r = plain_text_upper_case("WWIMIE", "EEEMSG")
         name = r.split(" ")[0]
