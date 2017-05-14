@@ -13,5 +13,5 @@ after_success:
 
 deploy:
   provider: heroku
-  app: hello-world-printer-app
+  app: cryptic-badlands-92777
   api_key: ${HEROKU_API_KEY}
