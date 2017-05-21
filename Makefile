@@ -1,6 +1,6 @@
 .PHONY: test deps
 
-USERNAME=mspurtacz
+USERNAME=karolbaranowski
 TAG=$(USERNAME)/hello-world-printer
 docker_push:
 	@docker login --username $(USERNAME) --password $(PASSWORD) ; \
